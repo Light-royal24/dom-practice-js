@@ -1,0 +1,118 @@
+<!-- created by DeLordRoyal -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>De Lords Books</title>
+  </head>
+  <body>
+	<!-- Div wrapper for content -->
+  	<div id="wrapper">
+
+		<!-- Header for the page -->
+	    <header>
+			<div id="page-banner">
+				<h1 class="title">BelovedBooks</h1>
+				<p>Books for Delord</p>
+				<form id="search-books">
+					<input type="search" placeholder="Search books..." />
+				</form>
+	    	</div>
+	    </header>
+		<!-- End of Header for the page -->
+
+		<!-- Div for all Books -->
+	    <div id="book-list">
+			<h2 class="title">Books to Read</h2>
+	    	<ul>
+				<li>
+					<span class="name">HTML Fundamentals</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+					<span class="name">CSS Full Course</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+					<span class="name">CSS Fundamental</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+					<span class="name">JavaScript/HTML/CSS </span>
+	    			<span class="delete">delete</span>
+	    		</li>
+				<li>
+					<span class="name">HTML/JavaScript book </span>
+	    			<span class="delete">delete</span>
+	    		</li>
+				<P id="demo"></P>
+	    	</ul>
+	    </div>
+		<!-- End of Div for all Books -->
+		
+		<!-- Div for Hide Book -->
+		<div id="hide-book">
+			<!-- hide books -->
+			<input type="checkbox"  id="hide">
+			<label for="hide" >
+				Hide All Books</label>
+			</div>
+			<!-- Div for Hide Book -->
+
+			<!-- Add book button -->
+			<form id="add-book">
+				<input type="text" placeholder="Add a book..." />
+				<button>Add</button>
+			</form>
+			<!-- End of Add book button -->
+			
+			<!-- Div for tabbed content -->
+			<div id="tabbed-content">
+				<ul class="tabs">
+					<li class="active" data-target="#about">About</li>
+					<li data-target="#contact">Contact</li>
+				</ul>
+				<div class="panel active" id="about">
+					<h3>About</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati aspernatur nemo modi.</p>
+				</div>
+				<div class="panel" id="contact">
+					<h3>Contact</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati aspernatur nemo modi.
+						<span>
+							<section id="footer">
+								<div class="footer">
+									<div class="brand"><h1>DeLord<span>Royal </span></h1></div>
+									<h2>fellow me and subsribe to my channel </h2>
+									<div class="social-icon">
+										<div class="social-item">
+											<a href="#"><img src="img/facebook.gif" alt=""></a>
+										</div>
+										<div class="social-item">
+											<a href="#"><img src="img/instagram.gif" alt=""></a>
+										</div>
+										<div class="social-item">
+											<a href="#"><img src="img/twitter.gif" alt=""></a>
+										</div>
+										<div class="social-item">
+											<a href="#"><img src="img/github.gif" alt=""></a>
+										</div>
+										<div class="social-item">
+											<a href="https://youtube.com/@planshakextudios7808"><img src="img/youtube.gif" alt=""></a>
+										</div>
+									</div>
+									<p>Copyright © 2023 DeLord<span>Royal</span> All rights reserved.</p>
+								</div>
+							   </section>
+						</span>
+					</p>
+				</div>
+				<!-- End of Div for tabbed content -->
+			</div>
+			<!-- End of Wrapper Div -->	
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
